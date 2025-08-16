@@ -12,19 +12,6 @@ The code is tested with **Python 3.13+** and **pytest**.
 
 ---
 
-## Project Structure
-
-Delta-Assignment/
-├── src/
-│ ├── task1.sql # SQL query for Task 1
-│ ├── task2.py # Python implementation for Task 2
-├── tests/
-│ ├── task2_test.py # Pytest unit tests for Task 2
-├── sample_data.csv # Example CSV for testing
-├── requirements.txt # Python dependencies
-├── README.md # Project documentation
-└── .gitignore # Ignored files & folders
-
 ## How to Run Locally
 ## Task1
 1. Open DBeaver and connect to your local PostgreSQL instance.
@@ -36,19 +23,19 @@ Delta-Assignment/
 
 ## Task2 (Windows)
 1. Create a virtual environment myenv
-python -m venv myenv
+    python -m venv myenv
 2. Activate 
-myenv/Scripts/activate
+    myenv/Scripts/activate
 3.Install required packages
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
 ## Running task2.py
 1. When output to be just printed
-python src/task2.py --input "filepath"
+    python src/task2.py --input "filepath"
 2. When output to be a file
-python src/task2.py --input "filepath" --output "filename.csv"
+    python src/task2.py --input "filepath" --output "filename.csv"
 3.Specify handling for missing/unparseable time-only values: 
-python src/task2.py --input sample_data.csv --on-missing midnight
+    python src/task2.py --input sample_data.csv --on-missing midnight
 4.Tested with sample_data.csv and dummy_data
 
 ## Testing task2
