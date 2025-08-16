@@ -11,6 +11,16 @@ The project is divided into two tasks:
 The code is tested with **Python 3.13+** and **pytest**.
 
 ---
+## Project structure
+- delta-flight-assignment
+-  - src
+- - - task1.sql
+- - - task2.py
+- - tests
+- - - conftest.py 
+- - - task2_test.py 
+- requirements.txt
+- README.md
 
 ## How to Run Locally
 ## Task1
@@ -26,7 +36,7 @@ The code is tested with **Python 3.13+** and **pytest**.
 - python -m venv myenv
 2. Activate 
 - myenv/Scripts/activate
-3.Install required packages
+3. Install required packages
 - pip install -r requirements.txt
 
 ## Running task2.py
