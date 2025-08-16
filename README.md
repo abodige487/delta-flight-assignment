@@ -31,11 +31,11 @@ The code is tested with **Python 3.13+** and **pytest**.
 
 ## Running task2.py
 1. When output to be just printed
-    python src/task2.py --input "filepath"
+- python src/task2.py --input "filepath"
 2. When output to be a file
-    python src/task2.py --input "filepath" --output "filename.csv"
+- python src/task2.py --input "filepath" --output "filename.csv"
 3.Specify handling for missing/unparseable time-only values: 
-    python src/task2.py --input sample_data.csv --on-missing midnight
+- python src/task2.py --input sample_data.csv --on-missing midnight
 4.Tested with sample_data.csv and dummy_data
 
 ## Testing task2
