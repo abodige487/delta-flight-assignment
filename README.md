@@ -23,20 +23,20 @@ The code is tested with **Python 3.13+** and **pytest**.
 
 ## Task2 (Windows)
 1. Create a virtual environment myenv
-    python -m venv myenv
+- python -m venv myenv
 2. Activate 
-    myenv/Scripts/activate
+- myenv/Scripts/activate
 3.Install required packages
-    pip install -r requirements.txt
+- pip install -r requirements.txt
 
 ## Running task2.py
 1. When output to be just printed
 - python src/task2.py --input "filepath"
 2. When output to be a file
 - python src/task2.py --input "filepath" --output "filename.csv"
-3.Specify handling for missing/unparseable time-only values: 
+3. Specify handling for missing/unparseable time-only values: 
 - python src/task2.py --input sample_data.csv --on-missing midnight
-4.Tested with sample_data.csv and dummy_data
+4. Tested with sample_data.csv and dummy_data
 
 ## Testing task2
 1. pytest tests/
