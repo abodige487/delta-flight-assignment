@@ -28,8 +28,8 @@ The code is tested with **Python 3.13+** and **pytest**.
 2. Ensure the `flight_leg` table is already loaded with the provided data. 
 3. Copy the SQL query and execute it in DBeaver.
 4. The query will return:
-        One row per flightkey
-        The most recent flightstatus for each flight, determined by lastupdt
+- One row per flightkey
+- The most recent flightstatus for each flight, determined by lastupdt
 
 ## Task2 (Windows)
 1. Create a virtual environment myenv
